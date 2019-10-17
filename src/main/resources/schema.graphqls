@@ -1,9 +1,14 @@
 schema {
    query: Query
+   mutation: Mutation
 }
 
 type Query {
   allIssues: [Issue]
+}
+
+type Mutation {
+  createIssue(id: String!, name: String!, type : String, date : String): Issue
 }
 
 type Issue {
