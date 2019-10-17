@@ -1,0 +1,14 @@
+type Issue {
+  id: String!
+  name: String!
+  type : String
+  date : String
+}
+
+type Query {
+  allIssues: [Issue]
+}
+
+schema {
+  query: Query
+}
