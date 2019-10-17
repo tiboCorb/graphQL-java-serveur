@@ -11,7 +11,7 @@ public class Query implements GraphQLRootResolver {
         this.issueRepository = linkRepository;
     }
 
-    public List<Issue> allIssue() {
+    public List<Issue> allIssues() {
         return issueRepository.getAllLinks();
     }
 }

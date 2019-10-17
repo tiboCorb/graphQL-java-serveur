@@ -1,0 +1,4 @@
+com\graphql\api\IssueRepository.class
+com\graphql\api\GraphQLEndpoint.class
+com\graphql\api\Issue.class
+com\graphql\api\Query.class
